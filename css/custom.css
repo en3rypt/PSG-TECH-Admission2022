@@ -1,0 +1,353 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+#mm-menu > div.mm-navbars-bottom > div {
+  display: none;
+}
+
+#hero_in > div > div {
+  padding-top: 150px;
+}
+
+.float {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: #fff;
+  font-size: 1.3rem !important;
+  text-align: center;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.navbar-default {
+  transition: 500ms ease;
+  background: transparent;
+}
+.navbar-default.scrolled {
+  background: #121921;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+mark {
+  background-color: #7c32ff;
+  color: #fff;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+.home-banner-area {
+  background: url(../img/xhome-banner-bg.png.pagespeed.ic.7Z-g8--v0w.png)
+    no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  max-height: 1200px;
+}
+.fullscreen {
+  height: 90vh;
+}
+@media screen and (min-width: 1921px) {
+  .home-banner-area .fullscreen {
+    align-items: start !important;
+    padding-top: 250px;
+    max-height: 1200px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-banner-area .fullscreen {
+    height: 700px !important;
+  }
+  .home-banner-left {
+    text-align: center;
+  }
+}
+.home-banner-left h1 {
+  color: #222;
+  font-size: 48px;
+  line-height: 1em;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.home-banner-left h1 span {
+  font-weight: 900;
+}
+@media (max-width: 768px) {
+  .home-banner-left h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767px) {
+  .home-banner-left h1 br {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .home-banner-left h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 414px) {
+  .home-banner-left h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .home-banner-left {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .home-banner-left {
+    margin-top: 150px;
+  }
+}
+.home-banner-right img {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  display: block;
+}
+@media (max-width: 991px) {
+  .home-banner-right img {
+    display: none;
+  }
+}
+.banner-area {
+  background: url(../img/xbanner-bg.png.pagespeed.ic.bYkmS9hUjv.png) no-repeat
+    center;
+  background-position: right;
+  min-height: 510px;
+}
+.banner-right {
+  margin-top: 200px;
+  text-align: right;
+}
+@media (max-width: 1199px) {
+  .banner-right {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .banner-right h1 {
+    font-size: 30px;
+  }
+  .banner-right p {
+    display: none;
+  }
+}
+.banner-right .box {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px 18px;
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .banner-right .box {
+    padding: 7px 15px;
+    margin-top: 30px;
+  }
+}
+.banner-right .box i {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px;
+  font-weight: 600;
+}
+.banner-right .box a {
+  color: #fff;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media (max-width: 380px) {
+  .banner-right .box a {
+    font-size: 13px;
+  }
+}
+.banner-right .box a:hover {
+  color: #222;
+}
+@media (max-width: 991px) {
+  .about-area .about-left {
+    margin-bottom: 50px;
+  }
+}
+.about-right h1 {
+  margin-bottom: 30px;
+  color: #222;
+}
+@media (max-width: 991px) {
+  .about-right h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .about-right h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .about-right h1 br {
+    display: none;
+  }
+}
+.about-right p:last-of-type {
+  margin-bottom: 0;
+}
+.feature-area {
+  margin-top: -200px;
+}
+@media (max-width: 1680px) and (min-width: 1200px) {
+  .feature-area {
+    margin-top: -200px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 991px) {
+  .feature-area {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .feature-area {
+    margin-top: -110px;
+  }
+}
+.feature-area .container-fluid {
+  padding-left: 50px;
+}
+@media (min-width: 1921px) {
+  .feature-area .container-fluid {
+    max-width: 1140px;
+    padding-left: 0;
+  }
+  .feature-area .container-fluid .col-lg-2.col-md-6 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 22.666667%;
+    max-width: 22.666667%;
+  }
+}
+@media (max-width: 767px) {
+  .feature-area .container-fluid {
+    padding-left: 15px;
+  }
+}
+.feature-item {
+  margin: 30px 0;
+  border-right: 1px solid rgba(130, 139, 178, 0.2);
+  padding-right: 20px;
+}
+.feature-item i {
+  font-size: 30px;
+  color: #828bb2;
+}
+.feature-item h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.feature-item p {
+  margin-bottom: 0;
+}
+.popular-course-area .container-fluid {
+  padding-left: 21%;
+  padding-right: 0;
+}
+
+/* ABOUT US SECTION */
+.registration-area {
+  background: url(../img/xregistration-bg.png.pagespeed.ic.K8vaJLIRVZ.png)
+    no-repeat center;
+  padding: 157px 0;
+}
+@media (max-width: 991px) {
+  .registration-area {
+    padding: 60px 0;
+    background: #7c32ff;
+  }
+}
+.registration-area .section-title {
+  padding-bottom: 0;
+}
+.registration-area .course-form-section {
+  background: transparent;
+  text-align: center;
+  padding: 70px 35px;
+  box-shadow: 0 0 50px rgba(185, 55, 223, 0.45);
+}
+@media (max-width: 991px) {
+  .registration-area .course-form-section {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .registration-area .course-form-section {
+    padding: 60px 0;
+  }
+}
+.registration-area .course-form-section h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.registration-area .course-form-section .course-form-area .form-control {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #828bb2;
+  padding: 20px;
+  font-size: 13px;
+  border-radius: 0;
+  color: #fff;
+}
+.registration-area .course-form-section .course-form-area .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.registration-area .course-form-section input.placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+.registration-area .course-form-section input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+.registration-area .course-form-section input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+.registration-area .course-form-section input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+.registration-area .course-form-section .btn {
+  font-size: 12px;
+  color: #fff;
+  line-height: 50px;
+  padding: 0 104px;
+  border: 0;
+  font-weight: 700;
+  margin-top: 20px;
+  border-radius: 0;
+}
+
+.mt {
+  margin-top: 50px !important;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+}
+
+.fixed {
+  position: fixed;
+  top: 91px;
+  width: 100%;
+  z-index: 100;
+  /* margin-bottom: 20px; */
+}
