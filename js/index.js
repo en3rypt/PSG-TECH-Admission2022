@@ -29,3 +29,10 @@ if (!sessionStorage.getItem("visited")) {
 } else {
     getVisitCount();
 }
+
+
+$('.skills').css({                      // scroll to that element or below it
+    position: 'relative',
+    top: $('#primary-nav').outerHeight(),
+    left: '0'
+});

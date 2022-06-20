@@ -351,3 +351,26 @@ mark {
   z-index: 100;
   /* margin-bottom: 20px; */
 }
+
+/* horizontal slider START*/
+.skills {
+  text-transform: uppercase;
+  color: #fff;
+  font: 1.2rem "Roboto", sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+  animation: floatText 25s infinite linear;
+  padding-left: 100%;
+}
+
+.skills:hover,
+.langs:hover {
+  animation-play-state: paused;
+}
+
+@keyframes floatText {
+  to {
+    transform: translateX(-100%);
+  }
+}
+/* horizontal slider END*/
